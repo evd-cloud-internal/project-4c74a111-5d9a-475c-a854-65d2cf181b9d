@@ -80,10 +80,12 @@ Klinik: {{unitselect}}
 %}
   {% dimension
     value="triage_diagnosis"
+    title="Diagnose"
     sort="asc"
   /%}
   {% measure
     value="count(distinct triage_id)"
+    title="Antal af øvrige hudlidelser"
   /%}
 {% /table %}
 
